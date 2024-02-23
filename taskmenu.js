@@ -33,6 +33,8 @@ function createtask(){
 
     let input = document.createElement('input');
 
+    input.className = 'input'
+
     let main = document.querySelector('main')
 
     input.value = a
