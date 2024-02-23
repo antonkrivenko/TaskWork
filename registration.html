@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="stylereg.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css">
+</head>
+<body>
+
+    <form id="myform"">
+        <div class="username"><input type="text" name="username" placeholder="Add your name"><br></div>
+        <div class="email"><input type="text" name="email" placeholder="Add your email"><br></div>
+        <div class="password"><input type="password" name="password" placeholder="Add your password" id="password"><button id="togglePassword" class="show-password">Show</button></div>
+        <div class="gender">
+        <input type="radio" name="gender" value="male"> Man<br>
+        <input type="radio" name="gender" value="female"> Woman<br>
+        <input type="radio" name="gender" value="female"> Не хочу вказувати<br>
+        </div>
+        <span id="error"></span>
+        <div><button class="smash" id="smash" onclick="return checkForm()">Smash</button></div>
+    </form>
+    <script src="main.js"></script>
+</body>
+</html>

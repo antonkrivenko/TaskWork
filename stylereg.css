@@ -1,0 +1,73 @@
+body {
+    background-color: #A6FFCD;
+    font-family: 'Jost', sans-serif;
+}
+#myform {
+    padding: 50px;
+    padding: 50px;
+    background: #8efcbd;
+    position: fixed; top: 50%; left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    border-radius: 50px;
+}
+.smash {
+    margin: 10px;
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    transition: 0.3s;
+    border: 3px solid #0b32be;
+    border-radius: 5px;
+    background-color: #2353FF;
+    color: #fff;
+    transition: transform 500ms ease;
+}
+.smash:hover {
+ 
+    transform: translateY(-10px) scale(1.1)
+}
+.show-password {
+    margin: 10px;
+    padding: 10px;
+    transition: 0.3s;
+    border: 3px solid #0b32be;
+    border-radius: 5px;
+    background-color: #2353FF;
+    color: #fff;
+}
+input {
+    border: solid 1px transparent;
+    border-radius: 5px;
+    margin: 20px;
+    padding: 10px 15px;
+    color: black;
+    outline: none;
+}
+input:focus {
+    border: 1px solid rgb(177, 37, 37);
+    transition: 0.5s;
+}
+#error {
+    font-weight: bold;
+    display: block;
+    color: #c62323;
+    font-size: 20px;
+    margin-top: 10px;
+}
+.smash {
+    margin-top: 12px;
+}
+.gender {
+    margin-top: 15px;
+}
+.username {
+    margin-top: 15px;
+}
+.email {
+    margin-top: 15px;
+}
+.password {
+    margin-top: 15px;
+}
