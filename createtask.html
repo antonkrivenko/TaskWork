@@ -10,10 +10,12 @@
 <body>
     <header class="header">
         <div class="header-menu">
-            <a href=""><img src="3844437-hamburger-list-menu-more-navigation_110311.png" alt="">
-            <a href="">task1</a>
-            <a href="">task2</a>
-            <a href="">task3</a>
+            <div class="dropdow">
+                <img src="3844437-hamburger-list-menu-more-navigation_110311.png" alt="Меню" onclick="toggleDropdown()" class="dropbtn">
+                <div id="myDropdown" class="dropdown-content">
+                    <a href="index.html" class="header-link">Menu</a>
+                </div>
+            </div>
             <div class="dropdown">
                 <div class="select">
                     <span class="selected">Figma</span>
@@ -49,9 +51,6 @@
     <footer>
         <div class="lowermenu">
             <div class="manyitem">
-            <div class="item">1</div>
-            <div class="item">2</div>
-            <div class="item">3</div>
         </div>
     </div>
     </footer>
