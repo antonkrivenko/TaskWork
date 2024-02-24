@@ -178,6 +178,36 @@ img {
 .dropbtn:hover {
     transform: scale(1.2);
 }
+.meny-bottom {
+    display: flex;
+    width: 200px;
+    border: 10px solid rgba(8, 48, 68, 0.533);
+}
+.border-bottom {
+    display: flex;
+    justify-content: start;
+}
+#timer {
+    font-family: sans-serif;
+    font-size: 50px;
+    display: flex;
+    justify-content: start;
+}
+.button-timer {
+    width: 100px;
+    height: 100px;
+    border: 10px solid rgba(21, 123, 175, 0.533);
+    margin: 0;
+    transition: 0.3s;
+}
+.button-timer:hover {
+    transform: scale(1.1);
+    border: none;
+    border-radius: 0;
+    margin: 20px;
+}
 
-
-  
+.button-timer:active {
+    transform: translateX(0.2em) translateY(0.2em);
+    box-shadow:  1.5px 1.5px 2.5px 1.5px rgba(0, 0, 0, 0.5);
+}

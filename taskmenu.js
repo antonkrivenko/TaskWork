@@ -49,3 +49,15 @@ function toggleDropdown() {
         dropdownContent.style.display = "block";
     }
 }
+
+let counter = 0;
+function my_func(){
+    document.getElementById('timer').innerHTML = ("Timer: " + counter  + "s");
+    counter++
+}
+function startInterval(){
+    inter = setInterval(my_func, 1000)
+}
+function stopInterval(){
+    clearInterval(inter)
+}
